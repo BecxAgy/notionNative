@@ -16,7 +16,7 @@ export default function PageList({ data }: PageListProps) {
   return (
     <View style={s.container}>
       <View style={s.header}>
-        <Text style={s.title}>Páginas</Text>
+        <Text style={s.title}>Paticular</Text>
 
         <TouchableOpacity>
           <Feather name="more-horizontal" size={20} style={s.icon} />
